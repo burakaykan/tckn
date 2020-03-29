@@ -31,6 +31,7 @@ import javaSnippet from "./snippets/java";
 import javascriptSnippet from "./snippets/javascript";
 import numberFormat from "./consts/number-formats";
 import { validateIdNumber, generateIdNumber } from "./util";
+import ShareButtons from './shareButtons'
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
@@ -278,6 +279,11 @@ function App() {
           </Grid.Column>
         </Grid.Row>
       </div>
+      <Grid.Row  verticalAlign="bottom">
+        <Grid.Column>
+          <ShareButtons />
+        </Grid.Column>
+      </Grid.Row>
     </Grid>
   );
 }
