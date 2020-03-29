@@ -31,19 +31,10 @@ import javaSnippet from "./snippets/java";
 import javascriptSnippet from "./snippets/javascript";
 import numberFormat from "./consts/number-formats";
 import { validateIdNumber, generateIdNumber } from "./util";
-import ShareButtons from './shareButtons'
+import ShareButtons from './shareButtons';
+import firebaseConfig from './firebaseConfig'
 
-// Your web app's Firebase configuration
-var firebaseConfig = {
-  apiKey: "AIzaSyDOX-fn9QSoM7D9j_bvtV0E3bOnyKg8Bwc",
-  authDomain: "tckn-c3ec6.firebaseapp.com",
-  databaseURL: "https://tckn-c3ec6.firebaseio.com",
-  projectId: "tckn-c3ec6",
-  storageBucket: "tckn-c3ec6.appspot.com",
-  messagingSenderId: "379808543686",
-  appId: "1:379808543686:web:b3df25e1cf9c93c2dbb8c7",
-  measurementId: "G-Z4864MCCQE"
-};
+
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
