@@ -5,7 +5,7 @@ export default
     limit: 1e3
   },
   { // 1,000 - 999,999
-    letter: 'K',
+    letter: 'B',
     limit: 1e6
   },
   { // 1,000,000 - 999,999,999
@@ -13,7 +13,7 @@ export default
     limit: 1e9
   },
   { // 1,000,000,000 - 999,999,999,999
-    letter: 'B',
+    letter: 'Mlyr',
     limit: 1e12
   },
   { // 1,000,000,000,000 - 999,999,999,999,999
